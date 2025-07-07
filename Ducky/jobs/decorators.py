@@ -1,5 +1,3 @@
-from django.shortcuts import redirect
-from django.urls import reverse
 from django.contrib.auth.decorators import user_passes_test
 
 def headhunter_required(view_func):
