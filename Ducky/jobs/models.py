@@ -17,6 +17,7 @@ class JobOffer(models.Model):
     is_active = models.BooleanField(default=True)
     created_at = models.DateTimeField(auto_now_add=True)
 
+
     def __str__(self):
         return f"{self.title} at {self.company_name}"
 
